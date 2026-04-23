@@ -16,7 +16,7 @@
   - [Collaborate Through Git/Pull Requests](#collaborate-through-gitpull-requests)
   - [Separate Data From Apps](#separate-data-from-apps)
 - [Getting Started](#getting-started)
-- [The agents.md](#the-agentsmd)
+- [Subprojects](#subprojects)
 
 ---
 
@@ -167,10 +167,9 @@ This ensures the data remains accessible to every tool, every agent, and every f
 
 ---
 
-## The agents.md
+## Subprojects
 
-> Note: this is work in progress, there are better agents.md out there!
-
-This repo includes an [`agents.md`](agents.md) file — a machine-readable version of the concepts and practices described above. When you place it in your project, your AI agent will follow these practices automatically: maintaining the context folder, creating PRs for changes, separating data from apps, and so on.
-
-Think of the README as the guide for humans. The `agents.md` is the guide for AI.
+| Project | Description |
+|---------|-------------|
+| [`agents.md`](agents.md) | Machine-readable version of these practices. Drop it into your project and your AI agent follows them automatically — context first, PRs for changes, separate data from apps. |
+| [AI Call](https://github.com/nicola/ai-call) | A skill that turns any coding agent into a structured interviewer. Ask questions one at a time, follow up naturally, produce a clean transcript. Works with Pi, Claude Code, and Codex. |
