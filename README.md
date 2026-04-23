@@ -18,6 +18,8 @@
 - [Getting Started](#getting-started)
 - [Subprojects](#subprojects)
 
+> **Work in progress.** Last updated: April 2026. I'll keep adding concepts and practices as I learn what works.
+
 ---
 
 AI is changing the operating system of organizations.
