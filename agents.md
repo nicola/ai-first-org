@@ -12,6 +12,8 @@ This repository is organized into:
 - `agents/` — Shared agent definitions (Markdown files) for recurring tasks.
 - `apps/` — Visualizations, scripts, and tools built on top of the context data.
 
+If these folders do not exist, create them.
+
 ## Rules
 
 1. **Context first.** When you receive new information (a transcript, a note, a decision), update the relevant files in `context/`. Create new files if needed. Never let knowledge exist only in conversation.
