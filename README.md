@@ -73,7 +73,9 @@ Because the context is structured and accessible, you can build dashboards, repo
 
 The key rule: **separate data from apps.** Don't hardcode organizational data into applications. Keep the data in the context folder so it can be used by as many apps as possible.
 
-### 6. Software Stack
+---
+
+## Software Stack
 
 An AI-first organization runs on four layers:
 
