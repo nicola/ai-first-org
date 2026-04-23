@@ -45,13 +45,15 @@ The output is a Markdown transcript — a portable artifact that flows into the 
 
 > See [AI Call](https://github.com/nicola/ai-call) for a skill that implements this.
 
-### 3. The Social Network Folder
+### 3. AI Social Network
 
 Beyond the context that people create (with AI assistance), there's knowledge that agents proactively go out and gather.
 
 The **social network folder** is a living directory of people, organizations, entities, and brands that matter to you. You maintain a list of who to track. Agents periodically scan these profiles online, cross-reference them with your context, and surface what's relevant.
 
-Over time, this becomes a kind of **personalized feed**. You can ask "what happened last week?" and get an AI-generated summary of activity across your network — like social media, but curated by your own AI for your own purposes.
+This isn't limited to social media. It's essentially an **AI-augmented CRM** — tracking people, companies, partners, investors, candidates, or anyone relevant to your organization. The AI maintains the relationships, surfaces connections, and keeps everything current.
+
+Over time, this becomes a kind of **personalized feed**. You can ask "what happened last week?" and get an AI-generated summary of activity across your network — curated by your own AI for your own purposes.
 
 Agents update this folder either when prompted or autonomously (using tools like [OpenClaw](https://openclaw.com) or similar autonomous agent runners).
 
