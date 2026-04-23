@@ -75,13 +75,12 @@ The key rule: **separate data from apps.** Don't hardcode organizational data in
 
 An AI-first organization runs on four layers:
 
-1. **Git** — Everything is versioned. Every change is tracked, every update has a history, and pull requests provide review and accountability. You get a full log of how the organization's knowledge evolved over time.
-
-2. **Context folder** — A shared repository of Markdown files that serves as the organization's source of truth. Use linking between files, tables where they help, and avoid duplicating text. Navigable by both humans and AI.
-
-3. **Coding agent** — An AI agent (like [Claude Code](https://claude.ai), [Codex](https://openai.com/codex), or [Pi](https://github.com/mariozechner/pi)) that reads and writes to the context folder, executes tasks, and creates pull requests.
-
-4. **Transcription tool** — A voice-to-text tool (like [Handy](https://handy.computer)) so people can talk instead of type. Lowers the barrier to feeding context into the system — just speak and the AI captures it.
+| Layer | What | Why |
+|-------|------|-----|
+| **Git** | Version control for everything | Every change is tracked, PRs provide review and accountability, full history of how knowledge evolved |
+| **Context folder** | Shared Markdown files — the org's source of truth | Linking between files, no duplication, navigable by both humans and AI |
+| **Coding agent** | [Claude Code](https://claude.ai), [Codex](https://openai.com/codex), or [Pi](https://github.com/mariozechner/pi) | Reads and writes to the context folder, executes tasks, creates pull requests |
+| **Transcription tool** | [Handy](https://handy.computer) or similar voice-to-text | Lowers the barrier — just speak and the AI captures it |
 
 ---
 
