@@ -55,7 +55,7 @@ Over time, this becomes a kind of **personalized feed**. You can ask "what happe
 
 Agents update this folder either when prompted or autonomously (using tools like [OpenClaw](https://openclaw.com) or similar autonomous agent runners).
 
-### 4. The Agents Folder
+### 4. Agent Archetypes
 
 A dedicated folder where the organization crafts and maintains **shared agents** — so individuals don't have to build them from scratch.
 
@@ -63,7 +63,7 @@ Example: if your organization reviews proposals, there could be an **evaluator a
 
 Agents are just files — Markdown instructions that tell AI how to behave for a specific task. Version them in Git like everything else.
 
-### 5. The Apps Folder
+### 5. Vibe-Coded Apps
 
 An **apps folder** where anyone in the organization can build visualizations, tools, computations, or scripts on top of the context data.
 
@@ -133,26 +133,21 @@ This ensures the data remains accessible to every tool, every agent, and every f
 
 2. **Open an empty folder.** This will become your organization's knowledge base.
 
-3. **Install the [`agents.md`](agents.md) from this repo.** It encodes the practices above so your AI follows them automatically.
+3. **Install the [AI Call](https://github.com/nicola/ai-call) skill.** This lets you drop context into the system through conversation — just talk, and the AI captures it.
 
-4. **Install the [AI Call](https://github.com/nicola/ai-call) skill.** This lets you drop context into the system through conversation — just talk, and the AI captures it.
+4. **Get a transcription tool.** [Handy](https://handy.computer) works well for voice-to-text.
 
-5. **Get a transcription tool.** [Handy](https://handy.computer) works well for voice-to-text.
+5. **Start talking.** Run an AI call about what your organization does. Let the AI build your first context files from that conversation. Iterate from there.
 
-6. **Start talking.** Run an AI call about what your organization does. Let the AI build your first context files from that conversation. Iterate from there.
+6. (Optional) **Install the [`agents.md`](agents.md) from this repo.** It encodes the practices above so your AI follows them automatically.
+
 
 ---
 
 ## The agents.md
 
+> Note: this is work in progress, there are better agents.md out there!
+
 This repo includes an [`agents.md`](agents.md) file — a machine-readable version of the concepts and practices described above. When you place it in your project, your AI agent will follow these practices automatically: maintaining the context folder, creating PRs for changes, separating data from apps, and so on.
 
 Think of the README as the guide for humans. The `agents.md` is the guide for AI.
-
----
-
-## Open By Design
-
-This is an idea, not a product. The concepts here can be implemented with any AI tool, any folder structure, any team size. Your data stays on your machines. There's no vendor lock-in — it's just files, Git, and AI.
-
-The way organizations operate is about to change dramatically. This is one early attempt to describe what that looks like.
