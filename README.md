@@ -1,5 +1,25 @@
 # The AI-First Organization
 
+## Table of Contents
+
+- [Core Concepts](#core-concepts)
+  - [The Context Folder](#1-the-context-folder)
+  - [AI Calls](#2-ai-calls)
+  - [AI Social Network](#3-ai-social-network)
+  - [Agent Archetypes](#4-agent-archetypes)
+  - [Vibe-Coded Apps](#5-vibe-coded-apps)
+- [Software Stack](#software-stack)
+- [Good Practices](#good-practices)
+  - [Context First](#context-first)
+  - [Levels of AI Usage](#levels-of-ai-usage)
+  - [Turn Creation Into Verification](#turn-creation-into-verification)
+  - [Collaborate Through Git/Pull Requests](#collaborate-through-gitpull-requests)
+  - [Separate Data From Apps](#separate-data-from-apps)
+- [Getting Started](#getting-started)
+- [The agents.md](#the-agentsmd)
+
+---
+
 AI is changing the operating system of organizations.
 
 We went from pen and paper to files and databases. From in-person meetings to Slack and Zoom. Each technological shift brought new tools — but the processes stayed roughly the same. People still write documents, attend meetings, update spreadsheets, and chase each other for context.
